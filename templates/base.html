@@ -44,7 +44,11 @@
 <body>
     <header class="container-fluid fixed-top">
         <div class="row">
-            <div class="col">test</div>
+            <div class="col">
+                <a href="{% url 'home' %}" class="logo-homepage">
+                    <img src="{{ MEDIA_URL }}logo.png" width="150" height="150" alt="logo">
+                </a>
+            </div>
             <div class="col">test</div>
         </div>
     </header>
